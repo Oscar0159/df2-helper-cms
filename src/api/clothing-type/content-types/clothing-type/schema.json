@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clothing_types",
+  "info": {
+    "singularName": "clothing-type",
+    "pluralName": "clothing-types",
+    "displayName": "Clothing Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    }
+  }
+}

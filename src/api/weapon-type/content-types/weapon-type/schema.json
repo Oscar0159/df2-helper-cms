@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapon_types",
+  "info": {
+    "singularName": "weapon-type",
+    "pluralName": "weapon-types",
+    "displayName": "Weapon Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    }
+  }
+}

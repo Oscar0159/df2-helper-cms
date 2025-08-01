@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapons",
+  "info": {
+    "singularName": "weapon",
+    "pluralName": "weapons",
+    "displayName": "Weapon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    },
+    "weapon_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::weapon-type.weapon-type"
+    }
+  }
+}

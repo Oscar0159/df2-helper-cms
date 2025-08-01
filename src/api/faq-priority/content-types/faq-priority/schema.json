@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_priorities",
+  "info": {
+    "singularName": "faq-priority",
+    "pluralName": "faq-priorities",
+    "displayName": "FAQ Priority"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    }
+  }
+}

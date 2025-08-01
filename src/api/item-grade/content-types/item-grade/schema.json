@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_grades",
+  "info": {
+    "singularName": "item-grade",
+    "pluralName": "item-grades",
+    "displayName": "Item Grade"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "scrap_value_multiplier": {
+      "type": "decimal",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}

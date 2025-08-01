@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_items",
+  "info": {
+    "singularName": "event-item",
+    "pluralName": "event-items",
+    "displayName": "Event Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    }
+  }
+}
